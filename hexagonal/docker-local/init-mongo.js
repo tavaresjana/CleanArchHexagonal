@@ -2,7 +2,7 @@ db = db.getSiblingDB('hexagonal');
 
 db.createUser({
     user: "root",
-    pwd: "example",
+    pwd: "root",
     roles: [
         {
             role: "readWrite",
